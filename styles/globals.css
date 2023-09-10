@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply h-full bg-black
+}
+
+body {
+  @apply h-full bg-black
+}
+::selection{
+  background-color:  rgb(139 92 246);
+}
